@@ -1,0 +1,8 @@
+flutter_application_id:
+  android:
+    id: "com.tomastravels.client"
+    name: "Tomas Travels: Client"
+  ios:
+    id: "com.tomastravels.client"
+    name: "Tomas Travels: Client"
+#LINK - flutter pub run flutter_application_id:main -f flutter_application_id.yaml

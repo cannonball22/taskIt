@@ -1,0 +1,6 @@
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/branding/logo-black-outlined-circle-wtag.png"
+  min_sdk_android: 21
+#LINK - flutter pub run flutter_launcher_icons:main -f flutter_launcher_icons.yaml

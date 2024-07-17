@@ -1,0 +1,93 @@
+name: task_it
+description: "A new Flutter project."
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.4 <4.0.0'
+
+##SECTION --Dependencies
+dependencies:
+  flutter:
+    sdk: flutter
+
+  ## t2 -- Presentation
+  loading_animation_widget: ^1.2.0+4
+  cached_network_image: ^3.2.3
+  flutter_svg: ^2.0.5
+  flutter_icons_plus: ^1.0.3
+  flex_color_scheme: ^7.0.4
+  octo_image: ^1.0.2
+  animated_text_kit: ^4.2.2
+  font_awesome_flutter: ^10.7.0
+  rating_dialog: ^2.0.4
+  flutter_easyloading: ^3.0.5
+  flutter_snackbar_plus: ^0.5.0
+  auto_animated_list: ^1.0.4
+  solid_bottom_sheet: ^0.1.10
+  theme_manager: ^1.1.1
+  flutter_zoom_drawer: ^3.0.4+1
+
+  ## t2 -- Providers
+  streaming_shared_preferences: ^2.0.0
+  cloud_firestore: ^4.3.1
+  firebase_database: ^10.2.0
+  provider: ^6.0.5
+
+  ## t2 -- Services
+  flutter_localizations:
+    sdk: flutter
+  firebase_messaging: ^14.7.3
+  auto_route: ^5.0.4
+  flutter_dotenv: ^5.0.2
+  logger: ^1.1.0
+  flutter_phoenix: ^1.1.0
+  equatable: ^2.0.5
+  min_id: ^1.1.0
+  flutter_bloc: ^8.1.2
+  device_info_plus: ^8.1.0
+  firebase_crashlytics: ^3.3.5
+  form_controller: ^0.8.4
+  permission_handler: ^10.2.0
+  flutter_network_connectivity: ^0.0.6
+  sentry_flutter: ^7.5.1
+  dio: ^5.0.0
+  google_sign_in: ^5.4.3
+  google_fonts: ^4.0.4
+
+  ## t2 -- Firebase
+  firebase: ^9.0.2
+  firebase_auth: ^4.5.0
+  firebase_storage: ^11.2.1
+
+  ## t2 -- Other Utilities
+  calendar_date_picker2: ^0.5.2
+  image_picker: ^1.0.4
+  app_settings: ^4.2.0
+  stack_trace: ^1.11.0
+
+##!SECTION --Development Dependencies
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  auto_route_generator: ^5.0.3
+  build_runner: ^2.1.8
+  flutter_application_id: ^2.0.0-dev
+  flutter_launcher_icons: ^0.13.1
+  flutter_native_splash: ^2.2.17
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/icons/
+
+fonts:
+  - family: AvantGarde Bk BT
+    fonts:
+      - asset: fonts/AVGARDD_2.ttf
+      - asset: fonts/AVGARDDO_2.ttf
+      - asset: fonts/AVGARDN_2.ttf
